@@ -19,12 +19,12 @@ categories = {
   LC_IDENTIFICATION: 12
 };
 
-function setLocale(category, locale){
-  var catid = categories[categories];
+function setLocale(category, locale_){
+  var catid = categories[category];
   if (catid === null || catid === undefined) {
     throw new Error("Unknown category " + category);
   }
-  return locale.setlocale(catid, locale);
+  return locale.setlocale(catid, locale_);
 }
 
 gettext.setLocale = setLocale;
