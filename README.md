@@ -1,10 +1,13 @@
-
 # Node.JS bindings to GNU gettext
 
 This a raw binding to GNU gettext with no extra sugar. Only extra is a shortcut
 for the libc `setlocale` function.
 
-Usage:
+## Installation
+
+    npm install gnu-gettext
+
+## Usage
 
 ```javascript
 var gettext = require("gnu-gettext");
