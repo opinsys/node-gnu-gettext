@@ -33,7 +33,7 @@ send a pull request :)
 ## Alternatives
 
 If you only need parser for `.po` and `.mo` I recommed [node-gettext][] which
-is pure Javascript parser.
+is a pure Javascript parser.
 
 [node-gettext]: https://github.com/andris9/node-gettext
 [manual]: http://www.gnu.org/software/gettext/manual/gettext.html
