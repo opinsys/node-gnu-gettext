@@ -16,6 +16,6 @@
   },
   "main": "index.js",
   "dependencies": {
-      "ffi": ""
+    "ffi": ""
   }
 }
