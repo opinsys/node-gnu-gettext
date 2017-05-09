@@ -19,7 +19,7 @@ console.log(gettext.dgettext("gedit", "Text Editor")); // Tekstimuokkain
 Note that these functions are syncronous by default. There is also asynchronous
 version as this is the plain node-ffi object:
 
-```javascrip:
+```javascript
 gettext.dgettext.async(function(err, text){
   console.log(text);
 });
